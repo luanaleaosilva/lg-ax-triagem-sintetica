@@ -1,0 +1,19 @@
+codigo,descricao,linhas_aplicaveis
+NAO_GELA,Nao gela / nao refrigera,Geladeira
+TEMP_ALTA_GABINETE,Temperatura alta no gabinete,Geladeira
+RUIDO_COMPRESSOR,Ruido anormal do compressor,Geladeira
+VAZAMENTO_AGUA,Vazamento de agua,Geladeira;Maquina de Lavar
+PORTA_DESALINHADA,Porta desalinhada / nao veda,Geladeira
+NAO_CENTRIFUGA,Nao centrifuga,Maquina de Lavar
+NAO_DRENA,Nao drena a agua,Maquina de Lavar
+ERRO_DISPLAY,Codigo de erro no display,Maquina de Lavar;TV
+NAO_LIGA,Nao liga,Geladeira;Maquina de Lavar;TV;Ar-Condicionado;Monitor
+TELA_ESCURA,Tela escura / sem imagem,TV;Monitor
+LINHAS_TELA,Linhas ou manchas na tela,TV;Monitor
+SEM_AUDIO,Sem audio,TV
+NAO_RESFRIA,Nao resfria o ambiente,Ar-Condicionado
+VAZAMENTO_GAS,Vazamento de gas refrigerante,Ar-Condicionado
+RUIDO_UNIDADE_EXTERNA,Ruido na unidade externa,Ar-Condicionado
+CONTROLE_NAO_RESPONDE,Controle remoto nao responde,TV;Ar-Condicionado
+FLICKER,Cintilacao na imagem,Monitor
+SEM_SINAL,Mensagem sem sinal,Monitor

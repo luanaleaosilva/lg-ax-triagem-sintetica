@@ -1,0 +1,13 @@
+{
+  "name": "lg-ax-triagem-sintetica",
+  "version": "1.0.0",
+  "description": "Deteccao precoce de falha sistemica em ocorrencias de campo (desafio AX Center / LG)",
+  "main": "src/pipeline.js",
+  "scripts": {
+    "start": "node src/pipeline.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.0",
+    "csv-parse": "^5.5.6"
+  }
+}

@@ -1,0 +1,21 @@
+id,linha,descricao_cliente,codigo_declarado_na_base,rotulo_manual,predicao_llm,confianca_llm,acerto,observacao
+OC-2026-000592,Ar-Condicionado,"controle nao funciona mais, ja troquei a pilha",,CONTROLE_NAO_RESPONDE,CONTROLE_NAO_RESPONDE,alta,sim,
+OC-2026-001223,Ar-Condicionado,nao resfria mais,,NAO_RESFRIA,NAO_RESFRIA,alta,sim,
+OC-2026-001980,Ar-Condicionado,reincidencia do mesmo problema,,INCLASSIFICAVEL,NAO_CLASSIFICADO,baixa,sim (absteve corretamente),"descricao nao contem sintoma nenhum -- correto nao forcar um codigo"
+OC-2026-000500,Ar-Condicionado,"suspeita de vazamento de gas, aparelho gela pouco",VAZAMENTO_GAS,VAZAMENTO_GAS,VAZAMENTO_GAS,alta,sim,
+OC-2026-001356,Geladeira,vazando agua embaixo do aparelho,,VAZAMENTO_AGUA,VAZAMENTO_AGUA,alta,sim,
+OC-2026-002002,Geladeira,"Aparelho nao liga. Tomada testada com outro equipamento, energia OK.",,NAO_LIGA,NAO_LIGA,alta,sim,
+OC-2026-001830,Geladeira,"geladeira nova parou de funcionar, o motor fica ligando e desligando toda hora e nao gela",RUIDO_COMPRESSOR,NAO_GELA,NAO_GELA,media,sim,"o codigo JA DECLARADO na base (RUIDO_COMPRESSOR) diverge do rotulo mais literal do texto -- evidencia direta do que a Marcela descreveu (campo de sintoma declarado nao confiavel)"
+OC-2026-001426,Geladeira,ta pingando agua na parte de tras,VAZAMENTO_AGUA,VAZAMENTO_AGUA,VAZAMENTO_AGUA,alta,sim,
+OC-2026-001651,Maquina de Lavar,erro no painel,,ERRO_DISPLAY,ERRO_DISPLAY,alta,sim,
+OC-2026-001330,Maquina de Lavar,"Aparelho nao liga. Tomada testada com outro equipamento, energia OK.",,NAO_LIGA,NAO_LIGA,alta,sim,
+OC-2026-000004,TV,erro no painel,,ERRO_DISPLAY,ERRO_DISPLAY,media,sim (mas ambiguo),"a MESMA frase aparece 14x como ERRO_DISPLAY e 1x como TELA_ESCURA na base (OC-2026-000629) -- ambiguidade real entre humanos, nao so hipotetica"
+OC-2026-000273,Maquina de Lavar,"vazamento constante, cliente teve que colocar pano embaixo",VAZAMENTO_AGUA,VAZAMENTO_AGUA,VAZAMENTO_AGUA,alta,sim,
+OC-2026-001432,Monitor,apareceu umas linhas verticais na tela,,LINHAS_TELA,LINHAS_TELA,alta,sim,
+OC-2026-000700,Monitor,aparece sem sinal na tela mesmo com o cabo ligado,,SEM_SINAL,SEM_SINAL,alta,sim,
+OC-2026-001452,Monitor,"Manchas escuras no canto inferior direito da tela, cliente relata que aumentaram.",LINHAS_TELA,LINHAS_TELA,LINHAS_TELA,alta,sim,
+OC-2026-000169,Monitor,aparece sem sinal na tela mesmo com o cabo ligado,SEM_SINAL,SEM_SINAL,SEM_SINAL,alta,sim,
+OC-2026-000564,TV,Audio ausente pelos alto-falantes internos. Saida optica funciona.,,SEM_AUDIO,SEM_AUDIO,alta,sim,
+OC-2026-001222,TV,sem som nenhum,,SEM_AUDIO,SEM_AUDIO,alta,sim,
+OC-2026-000302,TV,nao liga de jeito nenhum,NAO_LIGA,NAO_LIGA,NAO_LIGA,alta,sim,
+OC-2026-000710,TV,tela preta mas o som funciona,TELA_ESCURA,TELA_ESCURA,TELA_ESCURA,alta,sim,
